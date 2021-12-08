@@ -51,4 +51,4 @@ bot.readyCommand({
     code: `$log[Ligado no usuário $userTag[$clientID]]`
 })
 require('./src/datas')(bot);
-require('./questionsAPI.js')(bot)
+/* require('./questionsAPI.js')(bot) */

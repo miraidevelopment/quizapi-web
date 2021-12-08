@@ -1,4 +1,4 @@
-const express = require('express');
+/* const express = require('express');
 const app = express();
 const Discord = require("discord.js")
 const fetch = require('node-fetch')
@@ -28,4 +28,4 @@ app.get("/esportes/1", async(req, res) => {
     let r1c1 = client.datas.a1c1;
 
     res.json({q1c1, a1c1, r1c1})
-})
+}) */
