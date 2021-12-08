@@ -30,6 +30,7 @@
     "@discordjs/opus": "^0.4.0",
     "@discordjs/voice": "^0.6.0",
     "aoi.js": "^4.5.0",
+    "aoijs.firebase": "1.0.4",
     "discord-together": "1.1.62",
     "discord.js": "^12.5.3",
     "express": "^4.17.1",
