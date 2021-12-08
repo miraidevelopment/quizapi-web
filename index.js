@@ -20,7 +20,7 @@ const firebase = aoifb.create({
 
 const bot = new Aoijs.Bot({
     mobilePlatform: false,
-    intents: all,
+    intents: "all",
     token: process.env.TOKEN,
     prefix: ["$getServerVar[prefixo]", "<@917962601923760139> ", "<@!917962601923760139> "],
     database: firebase,
