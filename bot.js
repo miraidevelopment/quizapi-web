@@ -42,6 +42,7 @@ const bot = new Aoijs.Bot({
 
 /* Configuração */
 
+bot.loadCommands("./Commands");
 bot.onMessage({
     respondToBots: false,
     guildOnly: true
@@ -50,5 +51,12 @@ bot.readyCommand({
     channel: "",
     code: `$log[Ligado no usuário $userTag[$clientID]]`
 })
+
+/* Status do Bot */
+require('./src/stats.js')(bot);
+
+/* Banco de Dados das Questões */
 require('./src/datas')(bot);
+
+/* Chamando os dados das Questões para a WebAPI */
 /* require('./questionsAPI.js')(bot) */
