@@ -3,6 +3,7 @@ module.exports = (bot) => {
 
         prefix: "q?",
         version: "0.0.1",
+        bl: "no",
 
         /* Categoria 1 (Esportes)*/
         esportesTitle: "Esportes",
