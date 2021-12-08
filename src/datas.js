@@ -1,7 +1,7 @@
 module.exports = (bot) => {
     bot.variables({
 
-        prefixo: "q?",
+        prefix: "q?",
         version: "0.0.1",
 
         /* Categoria 1 (Esportes)*/

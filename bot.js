@@ -21,16 +21,16 @@ const firebase = aoifb.create({
 const bot = new Aoijs.Bot({
     mobilePlatform: false,
     intents: "all",
-    token: process.env.TOKEN,
-    prefix: ["$getServerVar[prefixo]", "<@917962601923760139> ", "<@!917962601923760139> "],
+    token: process.env.token,
+    prefix: ["$getServerVar[prefix]", "<@917962601923760139> ", "<@!917962601923760139> "],
     database: firebase,
-    sharding: false,
-    shardAmount: 0,
+    sharding: true,
+    shardAmount: 2,
     autoUpdate: false,
     fetchInvites: false,
     suppressAllErrors: true,
     debugs:{
-      interpreter:true
+      interpreter: true
     },
     events:{
       timeout:true,
