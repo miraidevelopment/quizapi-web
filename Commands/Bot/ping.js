@@ -1,14 +1,14 @@
 module.exports = {
     name: "ping",
-    description: "Mostrando a latência do atual do Mutanin :3",
+    description: "Mostrando a latência do Quiz Api BOT.",
     category: "Bot",
     perms: "Este comando não solicita permissões.",
-    usage: "ping ou $getServerVar[chamada]ping status",
+    usage: "ping ou $getServerVar[prefix]ping status",
     aliases: ["ms","latency","latencia","latência"],
     code: `
 $if[$message[1]==]
 $reply[$messageID;:ping_pong: <@$authorID> pong!
-**Mutano™ Shard $shardID / 4**(\`$replaceText[$replaceText[$replaceText[$replaceText[$shardID;0;BeastBoy];1;Dawn];2;Raven];3;Cyborg]\`){description: \🐯 » Minha Latência é:
+**Quiz Api Shard $shardID / 4**(\`$replaceText[$replaceText[$shardID;0;Albert Einstein];1;Aristóteles]\`){description: \💡 » Minha Latência é:
 <:mt_ar:912044933626626088>╰ \`$botPingms\`
 \⚡ »  Latência da Gateway:
 <:mt_ar:912044933626626088>╰ \`$djsEval[client.ws.ping;yes]ms\`}{color: $getVar[color]}{footer: Executado por $userTag[$authorID]:$authorAvatar}{timestamp};yes]
