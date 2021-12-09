@@ -59,4 +59,5 @@ require('./src/stats.js')(bot);
 require('./src/datas')(bot);
 
 /* Chamando os dados das Questões para a WebAPI */
+
 /* require('./webAPI.js')(bot) */
