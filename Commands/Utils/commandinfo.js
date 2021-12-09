@@ -15,7 +15,7 @@ $description[:bookmark_tabs: **» Informações do Comando**
 <:mt_ar:912044933626626088>╰ Sinônimos: \`[ $replaceText[$commandInfo[$message;aliases];,;, ] ]\`
 <:mt_ar:912044933626626088>╰ Categoria: \`[ $commandInfo[$message;category] ]\`
 <:mt_ar:912044933626626088>╰ Permissões: \`[ $commandInfo[$message;perms] ]\`
-<:mt_ar:912044933626626088>╰ Modo de Uso: \`[ $getServerVar[chamada]$commandInfo[$message;usage] ]\`  ]
+<:mt_ar:912044933626626088>╰ Modo de Uso: \`[ $getServerVar[prefix]$commandInfo[$message;usage] ]\`  ]
 $footer[Argumento Obrigatório <> | Argumento Opicional ();$authorAvatar]
 $onlyIf[$commandInfo[$message;name]!=;]
 $onlyIf[$commandInfo[$message;aliases]!=;]
