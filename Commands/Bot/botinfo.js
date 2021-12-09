@@ -1,19 +1,16 @@
 module.exports = [{
-    name: "tech",
-    description: "Saiba as informações detalhadas e técnicas do Mutano™ :3",
-    usage: "tech-botinfo",
+    name: "botinfo",
+    description: "Saiba as informações básicas, detalhadas e técnicas do Quiz Api BOT.",
+    usage: "botinfo",
     perms: "Este comando não solicita permissões.",
     category: "Bot",
-    aliases: ["techinfo", "tech-info", "bot-techinfo", "botinfo tec", "tecinfo", "tec-info", "tech-botinfo", "techbotinfo", "techbi"],
+    aliases: ["bi","bot","info","bot-info","infobot","info-bot", "techinfo", "tech-info", "bot-techinfo", "botinfo tec", "tecinfo", "tec-info", "tech-botinfo", "techbotinfo", "techbi"],
     code: `
 $reactionCollector[$splitText[1];$authorID;2m;◀️,▶;tech3,tech2;yes]
 $textSplit[$sendMessage[{thumbnail:$userAvatar[$clientID]}{description:
 📋 **» Informações**
-<:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui :)
-<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard
-
-📑 **» Comandos**
-<:mt_ar:912044933626626088>╰ Ao total, \`[ $numberSeparator[$getVar[allUsedCmdsGlobal]] ]\` comandos foram executados em mim!
+<:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui.
+<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard.
 
 #️⃣ **» Tag e ID**
 <:mt_ar:912044933626626088>╰ Tag \`[ $userTag[$clientID] ]\`
@@ -48,10 +45,7 @@ $cooldown[5s;<@$authorID>{color:$getVar[color]}{description::no_entry_sign: » C
 $editMessage[$message[1];{thumbnail:$userAvatar[$clientID]}{description:
 📋 **» Informações**
 <:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui :)
-<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` para ver minha latência \`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]uptime ]\` para ver minha status e meu uptime...
-
-📑 **» Comandos**
-<:mt_ar:912044933626626088>╰ Ao total, \`[ $numberSeparator[$getVar[allUsedCmdsGlobal]] ]\` comandos foram executados em mim!
+<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard.
 
 📸 **» Minhas Datas**
 <:mt_ar:912044933626626088>╰ Fui criado \`[ 07 de dezembro de 2021 às 23 horas 53 minutos e 24 segundos (horário de Brasília - BR) ]\`
@@ -68,10 +62,7 @@ $editMessage[$message[1];{thumbnail:$userAvatar[$clientID]}{description:
 $editMessage[$message[1];{thumbnail:$userAvatar[$clientID]}{description:
 📋 **» Informações**
 <:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui :)
-<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard
-
-📑 **» Comandos**
-<:mt_ar:912044933626626088>╰ Ao total, \`[ $numberSeparator[$getVar[allUsedCmdsGlobal]] ]\` comandos foram executados em mim!
+<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard.
 
 #️⃣ **» Tag e ID**
 <:mt_ar:912044933626626088>╰ Tag \`[ $userTag[$clientID] ]\`
