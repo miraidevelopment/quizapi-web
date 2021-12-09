@@ -8,7 +8,7 @@ module.exports = ({
     code: `
 $if[$message[1]==]
 $color[$getVar[color]]
-$thumbnail[$userAvatar[763109929300262953]]
+$thumbnail[$userAvatar[$clientID]]
 $author[STATUS]
 $description[:cloud: **» Status Quiz Api\™**
 \`\`\`
@@ -25,7 +25,7 @@ $addField[\`🌎\` » **Servidores**;╰ \`[ $abbreviate[$djsEval[client.shard.f
 
 $elseif[$message[1]==shard]
 $color[$getVar[color]]
-$thumbnail[$userAvatar[763109929300262953]]
+$thumbnail[$userAvatar[$clientID]]
 $author[STATUS]
 $description[:cloud: **» Status Quiz Api - ShardID $shardID (\`$replaceText[$replaceText[$shardID;0;Albert Einstein];1;Aristóteles]\`)** \`\`\`
 Aqui estão as informações atuais sobre o meu status

@@ -17,13 +17,14 @@ $reply[$messageID;:ping_pong: <@$authorID> pong!
 $elseif[$message[1]==shards]
 $reply[$messageID;\`\`\`js
 $log[$error]
-#RIGHT#  📑 ・  Shard ID Number   -   #RIGHT#     0    |   1    #LEFT#
+#RIGHT#  📑 ・  Shard ID Number  -  #RIGHT#    0    |   1    #LEFT#
 =======================・=========・=========・=======================
-#RIGHT#  📉 ・ WebSocket Latency  - $replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('ws.ping');yes];,; ms  | ];#LEFT#;ms] #LEFT#
-#RIGHT#  🌐 ・   Servers Counter   -   $replaceText[$replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('guilds.cache.size');yes];,;   |   ];,;   |   ];,;   |   ]
-#RIGHT#  📋 ・  Channels Counter  - $replaceText[$replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('channels.cache.size');yes];,;  |  ];,; |   ];,;  | ]
-#RIGHT#  👥 ・  Users Counter  -  $replaceText[$replaceText[$replaceText[$djsEval[client.shard.broadcastEval("this.guilds.cache.map((g) => g.memberCount || 0).reduce((x, y) => x + y, 0)").then(a => a);yes];,;  |  ];,;  |  ];,;  |  ]
-#RIGHT#  💡 ・Identification Name - #RIGHT#BeastBoy  |  Dawn  #LEFT#
+        #RIGHT#  📉 ・ WebSocket Latency  - $replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('ws.ping');yes];,; ms  | ];#LEFT#;ms] #LEFT#
+        #RIGHT#  🌐 ・   Servers Counter   -   $replaceText[$replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('guilds.cache.size');yes];,;   |   ];,;   |   ];,;   |   ]
+        #RIGHT#  📋 ・  Channels Counter  - $replaceText[$replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('channels.cache.size');yes];,;  |  ];,; |   ];,;  | ]
+        #RIGHT#  👥 ・  Users Counter  -  $replaceText[$replaceText[$replaceText[$djsEval[client.shard.broadcastEval("this.guilds.cache.map((g) => g.memberCount || 0).reduce((x, y) => x + y, 0)").then(a => a);yes];,;  |  ];,;  |  ];,;  |  ]
+    #RIGHT#  💡 ・Identification Name - #RIGHT#Albert Einstein  |  Aristóteles  #LEFT#
+
 ==========・======・========・== Uptime ==・======・=======・==========
 $replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$get[uptime0];,; | ];id;ShardID];value;Time];\#LEFT_BRACKET#;\#LEFT#];\#RIGHT_BRACKET#;\#RIGHT#];undefined;Shard 0 Desligada]
 $replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$get[uptime1];,; | ];id;ShardID];value;Time];\#LEFT_BRACKET#;\#LEFT#];\#RIGHT_BRACKET#;\#RIGHT#];undefined;Shard 1 Desligada]
