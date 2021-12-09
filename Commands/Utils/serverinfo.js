@@ -19,7 +19,6 @@ $reply[$messageID;{thumbnail: $serverIcon}
 }
 
 {field: \#COLON#pencil\#COLON# **Dados**:**Membros** (\`$numberSeparator[$membersCount]\`)
-**Região** $replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$serverRegion;brazil;Brasil];europe;Europa];us-south;Estados Unidos-Oeste];us-south;Estados Unidos-Sul];us-north;Estados Unidos-Norte]
 **Emojis** (\`$numberSeparator[$emojiCount]\`)
 **Cargos** (\`$numberSeparator[$roleCount]\`):yes}
 
