@@ -5,19 +5,19 @@ module.exports = [{
     aliases: ["e", "ev"],
     code: `
   $if[$isNumber[$message]==true]
-  $reactionCollector[$splitText[1];$authorID;5m;❌;exeval;yes]
-  $textSplit[$sendMessage[{thumbnail:$authorAvatar}{color:#2f3136}{description:> Tipo » \`number\`
-  > Tempo de execução » \`$random[1;30]ms\`
+$reactionCollector[$splitText[1];$authorID;5m;❌;exeval;yes]
+$textSplit[$sendMessage[{thumbnail:$authorAvatar}{color:#2f3136}{description:> Tipo » \`number\`
+> Tempo de execução » \`$random[1;30]ms\`
   
-  -> » Entrada
-     \`\`\`js
-     $message
-     \`\`\`
+**->** » Entrada
+\`\`\`js
+$message
+\`\`\`
     
-  <- » Saída
-  \`\`\`js
-  $eval[$message;yes]
-  \`\`\`}{footer:Eval -・- $username[$authorID]:$authorAvatar};yes]; ]
+**<-** » Saída
+\`\`\`js
+$eval[$message;yes]
+\`\`\`}{footer:Eval -・- $username[$authorID]:$authorAvatar};yes]; ]
   $suppressErrors
   
   $elseif[$isNumber[$message]==false]
@@ -26,8 +26,8 @@ module.exports = [{
   > Tempo de execução » \`$random[1;30]ms\`
   
   **->** » Entrada
-     \`\`\`js
-     $message
+  \`\`\`js
+ $message
      \`\`\`
     
   **<-** » Saída
