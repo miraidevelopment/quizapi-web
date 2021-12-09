@@ -4,8 +4,8 @@ require('dotenv/config');
 const Aoijs = require("aoi.js")
 
 //Configurando a Database
-const aoifb = require("aoijs.firebase")
-const firebase = aoifb.create({
+const Aoifb = require("./aoifb")
+const firebase = Aoifb.create({
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
     databaseURL: process.env.databaseURL,
