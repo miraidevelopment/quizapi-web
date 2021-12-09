@@ -3,7 +3,7 @@ module.exports = {
     description: "Mostrando a latência do Quiz Api BOT.",
     category: "Bot",
     perms: "Este comando não solicita permissões.",
-    usage: "ping ou $getServerVar[prefix]ping status",
+    usage: "ping ou ping status",
     aliases: ["ms","latency","latencia","latência"],
     code: `
 $if[$message[1]==]
