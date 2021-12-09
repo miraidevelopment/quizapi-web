@@ -1,10 +1,14 @@
 module.exports = (bot) => {
     bot.variables({
 
+        /* Variáveis Básicas do Bot */
         prefix: "q?",
         version: "0.0.1",
         bl: "no",
         color: "#2f3136",
+        afk: "disabled",
+        motivoAfk: "não foi passado o motivo 😕",
+
 
         /* Categoria 1 (Esporte)*/
         esportesTitle: "Esporte",
@@ -15,6 +19,7 @@ module.exports = (bot) => {
         a1c1: "1) Usain Bolt\n2) Pelé\n3) Oscar Schmidt\n4) Yan Gomes\n5) Sérgio Dutra",
         r1c1: "1",
 
+// ---------------------------------------------------------------------------------------------------------------------        
         /* Categoria 2 (História) */
         
         historiaTitle: "História",
