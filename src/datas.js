@@ -4,6 +4,7 @@ module.exports = (bot) => {
         prefix: "q?",
         version: "0.0.1",
         bl: "no",
+        color: "#2f3136",
 
         /* Categoria 1 (Esportes)*/
         esportesTitle: "Esportes",

@@ -1,6 +1,6 @@
 /* Fazendo a requisição do dotenv */
 require('dotenv/config');
-/* Ultilização da aoi.JS */
+/* Ultilização da Aoi.JS */
 const Aoijs = require("aoi.js")
 
 //Configurando a Database
@@ -59,4 +59,4 @@ require('./src/stats.js')(bot);
 require('./src/datas')(bot);
 
 /* Chamando os dados das Questões para a WebAPI */
-/* require('./questionsAPI.js')(bot) */
+/* require('./webAPI.js')(bot) */
