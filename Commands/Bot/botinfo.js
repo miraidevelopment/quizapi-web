@@ -51,7 +51,7 @@ $editMessage[$message[1];{thumbnail:$userAvatar[$clientID]}{description:
 <:mt_ar:912044933626626088>╰ Fui criado \`[ 07 de dezembro de 2021 às 23 horas 53 minutos e 24 segundos (horário de Brasília - BR) ]\`
 <:mt_ar:912044933626626088>╰ Entrei aqui em \`[ $memberJoinedDate[$clientID] ]\` | \`($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$clientID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora])\`
 
-**</>** **» Criador
+**</>** » Criador
 <:mt_ar:912044933626626088>╰ \`$username[424931675009712128]#$discriminator[424931675009712128]\` | \`424931675009712128\` | [GitHub - GR](https://github.com/guihrib)}
 {footer:Solicitado por $username:$authorAvatar}{color: $getVar[color]}]
 `

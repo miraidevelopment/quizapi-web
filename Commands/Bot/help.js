@@ -6,6 +6,6 @@ module.exports = ({
     usage: "help <sigla da categoria>",
     aliases: ["h","ajuda","cmds","comandos","commands"],
     code: `
-Em processo de criação...
+$reply[$messageID;{author: }]
     `
 })
