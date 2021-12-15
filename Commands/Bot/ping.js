@@ -17,7 +17,7 @@ $reply[$messageID;:ping_pong: <@$authorID> pong!
 $elseif[$message[1]==shards]
 $reply[$messageID;\`\`\`js
 $log[$error]
-#RIGHT#  📑 ・  Shard ID Number  -  #RIGHT#    0    |   1    #LEFT#
+            #RIGHT#  📑 ・  Shard ID Number  -  #RIGHT#    0    |   1    #LEFT#
 =======================・=========・=========・=======================
         #RIGHT#  📉 ・ WebSocket Latency  - $replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('ws.ping');yes];,; ms  | ];#LEFT#;ms] #LEFT#
         #RIGHT#  🌐 ・   Servers Counter   -   $replaceText[$replaceText[$replaceText[$djsEval[client.shard.fetchClientValues('guilds.cache.size');yes];,;   |   ];,;   |   ];,;   |   ]
