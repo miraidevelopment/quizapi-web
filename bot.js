@@ -1,10 +1,9 @@
-/* Fazendo a requisição do dotenv */
-require('dotenv/config');
-/* Ultilização da Aoi.JS */
+// Utilização da Aoi.JS
 const Aoijs = require("aoi.js")
 
-//Configurando a Database
+// Configurando a Database
 const Aoifb = require("aoijs.firebase")
+
 const firebase = Aoifb.create({
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
@@ -16,8 +15,7 @@ const firebase = Aoifb.create({
     measurementId: process.env.measurementId
 });
 
-//Configurando o Client da Aoi.js
-
+// Configurando o Client da Aoi.js
 const bot = new Aoijs.Bot({
     mobilePlatform: false,
     intents: "all",
@@ -29,10 +27,10 @@ const bot = new Aoijs.Bot({
     autoUpdate: false,
     fetchInvites: false,
     suppressAllErrors: true,
-    debugs:{
+    debugs: {
       interpreter: true
     },
-    events:{
+    events: {
       timeout:true,
       functionError: true,
       music: true
@@ -40,40 +38,27 @@ const bot = new Aoijs.Bot({
 })
  
 
-/* Configuração */
-
+// Configuração
 bot.loadCommands("./Commands");
 bot.onMessage({
     respondToBots: false,
     guildOnly: true
 });
+
 bot.readyCommand({
     channel: "",
     code: `$log[Ligado no usuário $userTag[$clientID]]`
 })
 
-/* Status do Bot */
+// Status do Bot 
 require('./src/stats.js')(bot);
 
-/* Banco de Dados das Questões */
+// Banco de Dados das Questões
 require('./src/datas')(bot);
-
-/* Chamando os dados das Questões para a WebAPI */
-
-/* require('./webAPI.js')(bot) */
-
-
-
-
-
-
-
-
-// ============≠========≠≠=======≠=======
 
 // Sistema de AFK
 
-bot.command ({
+bot.command({
   name: "<@",
   aliases: ["<!@"],
   nonPrefixed: true,
