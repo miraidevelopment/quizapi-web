@@ -1,7 +1,8 @@
 module.exports = [{
     name: "eval",
     description: "Evaluate",
-    category: "Devs",
+    category: "Desenvolvedor",
+    perms: "Este comando solicita a permissão de Desenvolvedor.",
     aliases: ["e", "ev"],
     code: `
   $if[$isNumber[$message]==true]
