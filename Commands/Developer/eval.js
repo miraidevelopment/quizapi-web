@@ -2,6 +2,7 @@ module.exports = [{
     name: "eval",
     description: "Evaluate",
     category: "Desenvolvedor",
+    usage: "eval",
     perms: "Este comando solicita a permissão de Desenvolvedor.",
     aliases: ["e", "ev"],
     code: `
