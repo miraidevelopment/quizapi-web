@@ -17,7 +17,7 @@ Aqui estão as informações atuais sobre o meu status
 
 $addField[\`🏆\` » **Canais**;╰\`[ $abbreviate[$djsEval[client.shard.fetchClientValues('channels.cache.size').then(a => eval(a.join("+")));yes]] ]\`;yes]
 
-$addField[\`📝\` **Comandos:**;╰ \`[ $sub[$commandsCount;6] ]\`;yes}
+$addField[\`📝\` **Comandos:**;╰ \`[ 11 ]\`;yes}
 
 $addField[\`👥\` » **Usuários**;╰ \`[ $abbreviate[$djsEval[client.shard.broadcastEval("this.guilds.cache.map((g) => g.memberCount || 0).reduce((x, y) => x + y, 0)").then(a => eval(a.join("+")));yes]] ]\`;yes]
 
@@ -33,7 +33,7 @@ Aqui estão as informações atuais sobre o meu status
 
 $addField[\`🏆\` » **Canais**;╰\`[ $abbreviate[$allChannelsCount] ]\`;yes]
 
-$addField[\`📝\` **Comandos:**;╰ \`[ $sub[$commandsCount;6] ]\`;yes]
+$addField[\`📝\` **Comandos:**;╰ \`[ 11 ]\`;yes]
 
 $addField[\`👥\` » **Usuários**;╰ \`[ $abbreviate[$allMembersCount] ]\`;yes]
 
