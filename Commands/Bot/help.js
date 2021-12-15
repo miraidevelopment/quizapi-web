@@ -9,7 +9,7 @@ module.exports = ({
 $reply[$messageID;{author: Minha lista de comandos:$authorAvatar}
 {thumbnail: $userAvatar[$clientID]}
 {description: \`\`\`
-Ao total, eu tenho 11 comandos. Meus comandos básicos para uso, se encontram abaixo dividos em suas devidas categorias:
+Ao total, eu tenho 10 comandos. Meus comandos básicos para uso, se encontram abaixo dividos em suas devidas categorias:
 \`\`\`
 \`💡\` __Bot:__
 \`help\`・\`botinfo\`・\`ping\`・\`setprefixo\`・\`status\`・\`versão\`
