@@ -6,6 +6,15 @@ module.exports = ({
     usage: "help <sigla da categoria>",
     aliases: ["h","ajuda","cmds","comandos","commands"],
     code: `
-$reply[$messageID;{author: }]
+$reply[$messageID;{author: Minha lista de comandos:$authorAvatar}
+{thumbnail: $userAvatar[$clientID]}
+{description: \`\`\`
+Meus comandos básicos para uso, se encontram abaixo dividos em suas devidas categorias:
+\`\`\`
+\`💡\` __BOT__
+
+}
+{color: $getVar[color]}  
+;yes]
     `
 })
