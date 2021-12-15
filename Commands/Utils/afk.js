@@ -10,7 +10,7 @@ module.exports = ({
   $elseif[$message!=]
   $setGlobalUserVar[motivoAfk;$replaceText[$replaceText[$replaceText[$message;@everyone;everyone];@here;here];\`;'];$authorID]
   $reply[$messageID;💤・Seu **modo AFK** foi ativado. Para você não se incomodar, pode relaxar, assim que você enviar uma mensagem no chat será desativado **:3**
-  > Motivo: \`\`\`$replaceText[$replaceText[$replaceText[$message;@everyone;everyone];@here;here];\`;']\`\`\`;no]
+> Motivo: \`\`\`$replaceText[$replaceText[$replaceText[$message;@everyone;everyone];@here;here];\`;']\`\`\`;no]
   $endelseif
   $endif
   $setGlobalUserVar[afk;activated;$authorID]
