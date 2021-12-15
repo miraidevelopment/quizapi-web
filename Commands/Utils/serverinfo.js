@@ -35,6 +35,6 @@ $reply[$messageID;{thumbnail: $serverIcon}
 $onlyIf[$getGlobalUserVar[bl;$authorID]==no;#LEFT_CLICK#@$authorID#RIGHT_CLICK#{color:$getVar[color]}{description::no_entry_sign: » Blacklist
 #LEFT_CLICK#:mt_ar:912044933626626088#RIGHT_CLICK#╰ #LEFT_CLICK#@$authorID#RIGHT_CLICK#, Você está na minha Blacklist e não pode executar meus comandos!}{delete:15s}]
 $cooldown[5s;#LEFT_CLICK#@$authorID#RIGHT_CLICK#{color:$getVar[color]}{description::no_entry_sign: » Cooldown
-#LEFT_CLICK#:mt_ar:912044933626626088#RIGHT_CLICK#╰ #LEFT_CLICK#@$authorID#RIGHT_CLICK#, Vai com calma pequeno caçador. Espere %time% para executar meus comandos!}{delete:15s}]
+#LEFT_CLICK#:mt_ar:912044933626626088#RIGHT_CLICK#╰ #LEFT_CLICK#@$authorID#RIGHT_CLICK#, Vai com calma pequeno Einstein. Espere %time% para executar meus comandos!}{delete:15s}]
     `
 })

@@ -18,6 +18,6 @@ $onlyPerms[manageserver;{description::no_entry_sign: **» Erro**
 $onlyIf[$getGlobalUserVar[bl;$authorID]==no;<@$authorID>{color:$getVar[color]}{description::no_entry_sign: **» Blacklist**
 <:mt_ar:912044933626626088>╰ <@$authorID>, Você está na minha Blacklist e não pode executar meus comandos!}{delete:15s}]
 $cooldown[5s;<@$authorID>{color:$getVar[color]}{description::no_entry_sign: **» Cooldown**
-<:mt_ar:912044933626626088>╰ <@$authorID>, Vai com calma pequeno caçador. Espere %time% para executar meus comandos!}{delete:15s}]
+<:mt_ar:912044933626626088>╰ <@$authorID>, Vai com calma pequeno Einstein. Espere %time% para executar meus comandos!}{delete:15s}]
     `
 })
