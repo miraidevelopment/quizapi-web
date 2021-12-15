@@ -1,10 +1,10 @@
 module.exports = ({
     name: "serverinfo",
     description: "Principais informações do servidor",
-    category: "Utils",
+    category: "Utilidades",
     perms: "Este comando não solicita permissões.",
     usage: "serverinfo",
-    aliases: ["infoserver","info-server","server-info"],
+    aliases: ["infoserver","info-server","server-info","guildinfo","guild-info"],
     code: `
 $reply[$messageID;{thumbnail: $serverIcon}
 {author: $serverName[$guildID]:https\#COLON#//cdn.discordapp.com/emojis/880845544250032209.png?v=1}

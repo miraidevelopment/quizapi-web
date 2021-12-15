@@ -3,7 +3,7 @@ module.exports = ({
     description: "Status em detalhes do Mutano™",
     category: "Bot",
     perms: "Este comando não solicita permissões.",
-    usage: "status ou $getServerVar[prefix]status shard",
+    usage: "status ou status shard",
     aliases: ["stats"],
     code: `
 $if[$message[1]==]

@@ -11,10 +11,10 @@ $reply[$messageID;{author: Minha lista de comandos:$authorAvatar}
 {description: \`\`\`
 Ao total, eu tenho 10 comandos. Meus comandos básicos para uso, se encontram abaixo dividos em suas devidas categorias:
 \`\`\`
-\`💡\` __Bot:__
+\`💡\` __Bot:__(\`6\`)
 \`help\`・\`botinfo\`・\`ping\`・\`setprefixo\`・\`status\`・\`versão\`
 
-\`📝\` __Utilidades:__
+\`📝\` __Utilidades:__(\`4\`)
 \`afk\`・\`avatar\`・\`commandinfo\`・\`serverinfo\`
 }
 {color: $getVar[color]}

@@ -8,7 +8,7 @@ module.exports = {
     code: `
 $if[$message[1]==]
 $reply[$messageID;:ping_pong: <@$authorID> pong!
-**Quiz Api Shard $shardID / 2**(\`$replaceText[$replaceText[$shardID;0;Albert Einstein];1;Aristóteles]\`){description: \💡 » Minha Latência é:
+**Quiz Api Shard $shardID / 1**(\`$replaceText[$replaceText[$shardID;0;Albert Einstein];1;Aristóteles]\`){description: \💡 » Minha Latência é:
 <:mt_ar:912044933626626088>╰ \`$botPingms\`
 \⚡ »  Latência da Gateway:
 <:mt_ar:912044933626626088>╰ \`$djsEval[client.ws.ping;yes]ms\`}{color: $getVar[color]}{footer: Executado por $userTag[$authorID]:$authorAvatar}{timestamp};yes]

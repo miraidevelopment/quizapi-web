@@ -1,7 +1,7 @@
 module.exports = ({
     name: "afk",
     description: "Para indicar se você esteja AFK...",
-    category: "Utils",
+    category: "Utilidades",
     perms: "Este comando não solicita permissões.",
     usage: "afk (motivo)",
     code: `

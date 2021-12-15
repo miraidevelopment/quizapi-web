@@ -1,7 +1,7 @@
 module.exports = ({
     name: "avatar",
     description: "Mostra o Avatar seu ou do usuario desejado.",
-    category: "Utils",
+    category: "Utilidades",
     perms: "Este comando não solicita permissões.",
     usage: "avatar <usuario> ou avatar",
     aliases: ["av"],
