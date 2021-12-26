@@ -61,9 +61,9 @@ module.exports = (bot) => {
         historiaTitle: "História",
         historiaDesc: "Prestou atenção nas aulas de história? Vamos testar isso agora...",
 
-        q1c2: "",
-        a1c2: "",
-        r1c2: "",
+        q1c2: "Quem descobriu o Brasil?",
+        a1c2: "1) Michel Temer\n2) Pedro Fonseca\n3) Jair Bolsonaro\4) Pedro Álvares Cabral\n5) Donald Trump",
+        r1c2: "4",
 
         q2c2: "",
         a2c2: "",

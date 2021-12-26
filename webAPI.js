@@ -21,6 +21,8 @@ module.exports = (bota) => {
 
 }
 
+// Categoria de Questões: (Esportes)
+
 app.get("/esportes", async(req, res) => {
 
     let esportesTitle = client.variables.esportesTitle
@@ -36,4 +38,19 @@ app.get("/esportes/1", async(req, res) => {
     let r1c1 = client.variables.r1c1
 
     res.json({questao: q1c1, alternativas: a1c1, resposta: r1c1})
+})
+
+
+// Categoria de Questões: (História)
+app.get("/historia", async(req, res) => {
+
+    let historiaTitle = client.variables.historiaTitle
+    let historiaDesc = client.variables.historiaDesc
+
+    res.send(`<h1>Categoria [${historiaTitle}]</h1> <h2>${historiaDesc}</h2>`)
+})
+aapp.get("/historia/1" async(req, res) => {
+
+    let q1c12= client.variables.q1c12    let a1c12= client.variables.a1c12    let r1c12= client.variables.r1c12
+    res.json({questao: q1c12 alternativas: a1c12 resposta: r1c12)
 })
