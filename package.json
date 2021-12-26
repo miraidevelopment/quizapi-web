@@ -2,9 +2,9 @@
   "name": "quiz-api",
   "version": "1.0.0",
   "description": "Uma api de questões e respostas para seu bot do Discord 100% em português e super fácil de usar.",
-  "main": "sharding.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node sharding.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "12.22.6",
@@ -33,6 +33,7 @@
   "dependencies": {
     "@discordjs/opus": "^0.4.0",
     "@discordjs/voice": "^0.6.0",
+    "axios": "0.24.0",
     "aoi.js": "^4.5.0",
     "aoijs.firebase": "1.0.4",
     "discord-together": "1.1.62",

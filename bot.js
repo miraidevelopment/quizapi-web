@@ -50,8 +50,11 @@ bot.readyCommand({
     code: `$log[Ligado no usuário $userTag[$clientID]]`
 })
 
+// Chamando os Dados da WebAPI
+require('./webAPI')(bot);
+
 // Status do Bot 
-require('./src/stats.js')(bot);
+require('./src/stats')(bot);
 
 // Banco de Dados das Questões
 require('./src/datas')(bot);

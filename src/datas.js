@@ -15,9 +15,9 @@ module.exports = (bot) => {
         esportesDesc: "Aqui você encontra diversas questões de esporte do Brasil e do Mundo!",
 
 
-        q1c1: "",
-        a1c1: "",
-        r1c1: "",
+        q1c1: "Qual foi o maior corredor do mundo?",
+        a1c1: "1) Usain Bolt\n2) Pelé\n3) Oscar Schmidt\n4) Yan Gomes\n5) Sérgio Dutra",
+        r1c1: "1",
 
         q2c1: "",
         a2c1: "",
