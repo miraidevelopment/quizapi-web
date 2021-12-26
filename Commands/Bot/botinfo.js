@@ -10,7 +10,7 @@ $reactionCollector[$splitText[1];$authorID;2m;◀️,▶;tech3,tech2;yes]
 $textSplit[$sendMessage[{thumbnail:$userAvatar[$clientID]}{description:
 📋 **» Informações**
 <:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui.
-<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard.
+<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` para ver minha latência, \`[ $getServerVar[prefix]status ]\` para ver minha status geral.
 
 #️⃣ **» Tag e ID**
 <:mt_ar:912044933626626088>╰ Tag \`[ $userTag[$clientID] ]\`
@@ -44,15 +44,16 @@ $cooldown[5s;<@$authorID>{color:$getVar[color]}{description::no_entry_sign: » C
   code: `
 $editMessage[$message[1];{thumbnail:$userAvatar[$clientID]}{description:
 📋 **» Informações**
-<:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui :)
-<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard.
+<:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui.
+<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` para ver minha latência, \`[ $getServerVar[prefix]status ]\` para ver minha status geral.
 
 📸 **» Minhas Datas**
 <:mt_ar:912044933626626088>╰ Fui criado \`[ 07 de dezembro de 2021 às 23 horas 53 minutos e 24 segundos (horário de Brasília - BR) ]\`
 <:mt_ar:912044933626626088>╰ Entrei aqui em \`[ $memberJoinedDate[$clientID] ]\` | \`($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$clientID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora])\`
 
-**</>** » Criador
-<:mt_ar:912044933626626088>╰ \`$username[424931675009712128]#$discriminator[424931675009712128]\` | \`424931675009712128\` | [GitHub - GR](https://github.com/guihrib)}
+**</>** » Criadores
+<:mt_ar:912044933626626088>╰ \`$username[424931675009712128]#$discriminator[424931675009712128]\` | \`424931675009712128\` | [GitHub - GR](https://github.com/guihrib)
+<:mt_ar:912044933626626088>╰ \`$username[417067105897414667]#$discriminator[417067105897414667]\` | \`417067105897414667\` | [GitHub - Krul](https://github.com/KrulDev)}
 {footer:Solicitado por $username:$authorAvatar}{color: $getVar[color]}]
 `
 }, {
@@ -61,8 +62,8 @@ $editMessage[$message[1];{thumbnail:$userAvatar[$clientID]}{description:
   code: `
 $editMessage[$message[1];{thumbnail:$userAvatar[$clientID]}{description:
 📋 **» Informações**
-<:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui :)
-<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` e \` [ $getServerVar[prefix]ping shards]\` para ver minha latência ou a latência de minhas shards\`[ $getServerVar[prefix]status ]\` e \`[ $getServerVar[prefix]status shard ]\` para ver minha status geral e meus status nesta shard.
+<:mt_ar:912044933626626088>╰ Olá **$username** tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui.
+<:mt_ar:912044933626626088>╰ Para mais informações use \`[ $getServerVar[prefix]versão ]\` para ver minha versão, \` [ $getServerVar[prefix]ping ]\` para ver minha latência, \`[ $getServerVar[prefix]status ]\` para ver minha status geral.
 
 #️⃣ **» Tag e ID**
 <:mt_ar:912044933626626088>╰ Tag \`[ $userTag[$clientID] ]\`

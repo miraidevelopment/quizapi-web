@@ -2,9 +2,9 @@
   "name": "quiz-api",
   "version": "1.0.0",
   "description": "Uma api de questões e respostas para seu bot do Discord 100% em português e super fácil de usar.",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "engines": {
     "node": "12.22.6",

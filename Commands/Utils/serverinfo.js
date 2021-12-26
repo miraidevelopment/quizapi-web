@@ -12,7 +12,6 @@ $reply[$messageID;{thumbnail: $serverIcon}
 \#COLON#loudspeaker\#COLON# **Importantes**
 #LEFT_CLICK#\#COLON#mt_ar\#COLON#912044933626626088#RIGHT_CLICK#**╰Dono** #LEFT_CLICK#@$ownerID#RIGHT_CLICK# | \`[ $ownerID ]\`
 #LEFT_CLICK#\#COLON#mt_ar\#COLON#912044933626626088#RIGHT_CLICK#**╰ID do Servidor** \`[ $guildID ]\`
-#LEFT_CLICK#\#COLON#mt_ar\#COLON#912044933626626088#RIGHT_CLICK#**╰ShardID** [ $shardID (\`$replaceText[$replaceText[$shardID;0;Albert Einstein];1;Aristóteles]\`) ]
 #LEFT_CLICK#\#COLON#mt_ar\#COLON#912044933626626088#RIGHT_CLICK#**╰Criado em** $creationDate[$guildID] | (\`$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$guildID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora]\`)
 #LEFT_CLICK#\#COLON#mt_ar\#COLON#912044933626626088#RIGHT_CLICK#**╰Eu entrei no servidor em** $memberJoinedDate[$clientID] | (\`$replacetext[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$clientID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora]\`)
 #LEFT_CLICK#\#COLON#mt_ar\#COLON#912044933626626088#RIGHT_CLICK#
@@ -28,7 +27,7 @@ $reply[$messageID;{thumbnail: $serverIcon}
 
 {field: \#COLON#crystal_ball\#COLON# **Booster**: **Boosts** (\`$numberSeparator[$serverBoostCount]\`)
 **Nível** (\`$serverBoostLevel\`):yes}
-{image: $replaceText[$replaceText[$replaceText[$serverSplash;webp;png];null;https\#COLON#//cdn.discordapp.com/attachments/858905592801656853/867814690482028564/banner_invisible.png];size=2048;size=4096]}
+{image: $replaceText[$replaceText[$replaceText[$serverSplash;webp;png?size=4096];null;https\#COLON#//cdn.discordapp.com/attachments/858905592801656853/867814690482028564/banner_invisible.png];?size=2048;?size=4096]}
 {footer: Solicitado por $username:$authorAvatar}
 {timestamp}
 {color: $getVar[color]};yes]

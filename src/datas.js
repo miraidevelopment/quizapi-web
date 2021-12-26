@@ -62,7 +62,7 @@ module.exports = (bot) => {
         historiaDesc: "Prestou atenção nas aulas de história? Vamos testar isso agora...",
 
         q1c2: "Quem descobriu o Brasil?",
-        a1c2: "1) Michel Temer\n2) Dom Pedro II\n3) Napoleão Bonaparte\n4) Pedro Álvares Cabral\n5) Dom Pedro I",
+        a1c2: "1) Cristóvão Colombo\n2) Dom Pedro II\n3) Napoleão Bonaparte\n4) Pedro Álvares Cabral\n5) Dom Pedro I",
         r1c2: "4",
 
         q2c2: "Quando foi a proclamação da república?",
