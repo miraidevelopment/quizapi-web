@@ -51,9 +51,9 @@ app.get("/historia", async(req, res) => {
 })
 app.get("/historia/1", async(req, res) => {
 
-    let q1c12= client.variables.q1c12    
-    let a1c12= client.variables.a1c12
-    let r1c12= client.variables.r1c12
+    let q1c12= client.variables.q1c2
+    let a1c12= client.variables.a1c2
+    let r1c12= client.variables.r1c2
   
-    res.json({questao: q1c12, alternativas: a1c12, resposta: r1c12})
+    res.json({questao: q1c2, alternativas: a1c2, resposta: r1c2})
 })
