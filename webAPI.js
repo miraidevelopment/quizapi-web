@@ -31,29 +31,66 @@ app.get("/esportes", async(req, res) => {
     res.send(`<h1>Categoria [${esportesTitle}]</h1> <h2>${esportesDesc}</h2>`)
 })
 
-app.get("/esportes/1", async(req, res) => {
+app.get("/esportes/:id", async(req, res) => {
 
-    let q1c1 = client.variables.q1c1
-    let a1c1 = client.variables.a1c1
-    let r1c1 = client.variables.r1c1
+    let id   = req.params.id
+    let questionC1 = client.variables[`q${id}c1`]
+    let alternativeC1 = client.variables[`a${id}c1`]
+    let answerC1 = client.variables[`r${id}c1`]
 
-    res.json({questao: q1c1, alternativas: a1c1, resposta: r1c1})
+    if(sendError(id, "esportes", res)) {} else {
+      
+      res.json({questao: questionC1, alternativas: alternativeC1, resposta: answerC1})
+
+    }
+  
 })
 
 
 // Categoria de Questões: (História)
 app.get("/historia", async(req, res) => {
 
+     
     let historiaTitle = client.variables.historiaTitle
     let historiaDesc = client.variables.historiaDesc
 
     res.send(`<h1>Categoria [${historiaTitle}]</h1> <h2>${historiaDesc}</h2>`)
 })
-app.get("/historia/1", async(req, res) => {
+app.get("/historia/:id", async(req, res) => {
 
-    let q1c2= client.variables.q1c2
-    let a1c2= client.variables.a1c2
-    let r1c2= client.variables.r1c2
+    let id   = req.params.id
+    let questionC2 = client.variables[`q${id}c2`]
+    let alternativeC2 = client.variables[`a${id}c2`]
+    let answerC2 = client.variables[`r${id}c2`]
   
-    res.json({questao: q1c2, alternativas: a1c2, resposta: r1c2})
+    if(sendError(id, "historia", res)) {} else {
+      
+      res.json({questao: questionC2, alternativas: alternativeC2, resposta: answerC2})
+
+    }
 })
+
+app.get("/*", async(req, res) => {
+
+  res.status(404).json({
+    status: 404,
+    message: "Esta categoria não existe! Possíveis opções (esportes, historia)"
+  })
+
+})
+
+function sendError(id, category, res) {
+
+  if(id < 1 || id > 10) {
+
+    res.status(404).json({
+      error: 404,
+      message: `Quiz#${category} Não existe uma questão com esse número, por favor selecione uma questão de 1 à 10!`
+    })
+    return true
+
+  } else {
+    return false
+  }
+
+}

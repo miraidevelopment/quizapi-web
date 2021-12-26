@@ -3,7 +3,7 @@ module.exports = (bot) => {
 
         /* Variáveis Básicas do Bot */
         prefix: "q?",
-        version: "0.1.4",
+        version: "1.0.8",
         bl: "no",
         color: "#2f3136",
         afk: "disabled",
@@ -19,9 +19,9 @@ module.exports = (bot) => {
         a1c1: "1) Usain Bolt\n2) Pelé\n3) Oscar Schmidt\n4) Yan Gomes\n5) Sérgio Dutra",
         r1c1: "1",
 
-        q2c1: "",
-        a2c1: "",
-        r2c1: "",
+        q2c1: "Quem trouxe o futebol para o Brasil?",
+        a2c1: "1) Pelé\n2) Zico\n3) Charles Miller\n4) Zidane\n5) Neymar",
+        r2c1: "3",
  
         q3c1: "",
         a3c1: "",
@@ -62,12 +62,12 @@ module.exports = (bot) => {
         historiaDesc: "Prestou atenção nas aulas de história? Vamos testar isso agora...",
 
         q1c2: "Quem descobriu o Brasil?",
-        a1c2: "1) Michel Temer\n2) Pedro Fonseca\n3) Jair Bolsonaro\4) Pedro Álvares Cabral\n5) Donald Trump",
+        a1c2: "1) Michel Temer\n2) Dom Pedro II\n3) Napoleão Bonaparte\n4) Pedro Álvares Cabral\n5) Dom Pedro I",
         r1c2: "4",
 
-        q2c2: "",
-        a2c2: "",
-        r2c2: "",
+        q2c2: "Quando foi a proclamação da república?",
+        a2c2: "1) 15 de novembro de 1887\n2) 15 de novembro de 1889\n3) 31 de março de 1907\n4) 2 de abril de 2001\n5) 3 de fevereiro de 1803",
+        r2c2: "2",
  
         q3c2: "",
         a3c2: "",
@@ -102,4 +102,4 @@ module.exports = (bot) => {
         r10c2: "",
 // ---------------------------------------------------------------------------------------------------------------------    
     })
-}
+} 

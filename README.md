@@ -8,5 +8,5 @@
 
 
 ```diff
-+ Feito por guihrib (GR)+
++ Feito por guihrib (GR) +
 ```
