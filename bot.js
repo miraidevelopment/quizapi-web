@@ -1,10 +1,9 @@
 const { keep_alive } = require("./keep_alive.js");
-// Utilização da Aoi.JS
+// definindo o aoi.js
 const Aoijs = require("aoi.js")
-
-// Configurando a Database
+// definindo a firebase do aoi.js
 const Aoifb = require("aoijs.firebase")
-
+//configurando a database
 const firebase = Aoifb.create({
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
@@ -16,7 +15,7 @@ const firebase = Aoifb.create({
     measurementId: process.env.measurementId
 });
 
-// Configurando o Client da Aoi.js
+// client do aoi
 const bot = new Aoijs.Bot({
     mobilePlatform: false,
     intents: "all",
@@ -34,10 +33,9 @@ const bot = new Aoijs.Bot({
       functionError: true,
       music: true
     }
-})
- 
+});
 
-// Configuração
+// config
 bot.loadCommands("./Commands");
 bot.onMessage({
   respondToBots: false,
@@ -49,13 +47,11 @@ bot.readyCommand({
     code: `$log[Ligado no usuário $userTag[$clientID]]`
 })
 
-// Chamando os Dados da WebAPI
+// server do projeto
 require('./webAPI')(bot);
-
-// Status do Bot 
+// stats
 require('./src/stats')(bot);
-
-// Banco de Dados das Questões
+// banco de dados
 require('./src/datas')(bot);
 
 // Sistema de AFK
