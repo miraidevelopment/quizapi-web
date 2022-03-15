@@ -1,11 +1,11 @@
 <br>
 <div align="center">
-    <a href="https://www.npmjs.com/package/quizapi"><img src="https://user-images.githubusercontent.com/61317250/158294345-526230b3-fbaf-4eda-8791-979766515bee.png" alt="quizapi icon" /></a>
+    <a href="https://www.npmjs.com/package/quiz-api"><img src="https://user-images.githubusercontent.com/61317250/158294345-526230b3-fbaf-4eda-8791-979766515bee.png" alt="quizapi icon" /></a>
     <h1>QuizAPI</h1>
     <p>💡 Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar ⚡</p>
     <a href="https://discord.gg/gNFEMrHshn"><img src="https://img.shields.io/discord/786392360475951154?color=5865F2&logo=discord&logoColor=white" alt="discord server" /></a>
-    <a href="https://www.npmjs.com/package/quizapi"><img src="https://img.shields.io/npm/v/quizapi.svg?maxAge=3600" alt="npm version" /></a>
-    <a href="https://www.npmjs.com/package/quizapi"><img src="https://img.shields.io/npm/dt/quizapi.svg?maxAge=3600" alt="npm downlods" /></a>
+    <a href="https://www.npmjs.com/package/quiz-api"><img src="https://img.shields.io/npm/v/quiz-api.svg?maxAge=3600" alt="npm version" /></a>
+    <a href="https://www.npmjs.com/package/quiz-api"><img src="https://img.shields.io/npm/dt/quiz-api.svg?maxAge=3600" alt="npm downlods" /></a>
 </div>
 <br>
 
