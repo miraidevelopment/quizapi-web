@@ -11,7 +11,10 @@
 
 ## Suporte - Tem perguntas ou quer conversar e entrar em contato com os desenvolvedores?
 ### Entre no servidor de suporte agora para obter respostas às suas perguntas ou para receber ajuda com erros:
-### [Servidor Oficial](https://discord.gg/gNFEMrHshn)
+<div align="center">
+  <h3><a href="https://discord.gg/gNFEMrHshn"alt="server support">Servidor Oficial</a></h3>
+</div>
+
 ## Índice de Conteúdos
 
 - [Sobre](#about)
