@@ -1,0 +1,50 @@
+{
+  "name": "quiz-api",
+  "version": "1.0.0",
+  "description": "QuizAPI - 💡 Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar ⚡",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "dependencies": {
+    "aoi.js": "5.1.0",
+    "aoi.fb": "5.5.5",
+    "axios": "^0.25.0",
+    "discord.js": "13.6.0"
+  },
+  "devDependencies": {
+    "node": ">=16.6.0"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiraiDevelopment/quiz-api.git"
+  },
+  "keywords": [
+    "quiz",
+    "api",
+    "quizapi",
+    "botdiscord",
+    "djs",
+    "discordjs",
+    "aoijs",
+    "questions"
+  ],
+  "author": "GR",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+    "type": "Apache-2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/MiraiDevelopment/quiz-api/issues"
+  },
+  "homepage": "https://github.com/MiraiDevelopment/quiz-api#readme"
+}
