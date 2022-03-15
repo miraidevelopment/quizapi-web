@@ -31,7 +31,7 @@
 **Node.JS 16.6.0 ou maior é necessária.**  
 
 ```sh-session
-npm install quizapi
+npm install quiz-api
 ```
 
 
