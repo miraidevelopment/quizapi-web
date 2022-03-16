@@ -1,51 +1,34 @@
 const express = require('express');
 const app = express();
-const Discord = require("discord.js")
-const fetch = require('node-fetch')
+const firebase = require('firebase')
 
-var client
-var bot
-
-module.exports = (bota) => {
-
-  client = bota.client
-  bot    = bota
-
-}
-
-// Categoria de Questões: (Esportes)
-
-app.get("/esportes", async(req, res) => {
-
-    let esportesTitle = client.variables.esportesTitle
-    let esportesDesc = client.variables.esportesDesc
-
-    res.send(`<h1>Categoria [${esportesTitle}]</h1> <h2>${esportesDesc}</h2>`)
+firebase.initializeApp({
+    apiKey: process.env.apiKey,
+    authDomain: process.env.authDomain,
+    databaseURL: process.env.databaseURL,
+    projectId: process.env.projectId,
+    storageBucket: process.env.storageBucket,
+    messagingSenderId: process.env.messagingSenderId,
+    appId: process.env.appId,
+    measurementId: process.env.measurementId
 })
 
-app.get("/esportes/1", async(req, res) => {
+const db = firebase.database()
 
-    let q1c1 = client.variables.q1c1
-    let a1c1 = client.variables.a1c1
-    let r1c1 = client.variables.r1c1
+app.get("/:category/:id", async (req, res) => {
 
-    res.json({questao: q1c1, alternativas: a1c1, resposta: r1c1})
+    let { category, id } = req.params;
+
+    let data = await db.ref(`api/${category}/${id}`).once('value')
+        data = data.val()
+
+    if(data) return res.json({ questao: data.questao, alternativas: data.alternativas, resposta: data.resposta })
+    if(!data) return res.json({ err: true, message: "Sorry, this category or question doesn't exist :(" })
+
+    res.json({ err: true, message: "error" })
+
 })
 
-
-// Categoria de Questões: (História)
-app.get("/historia", async(req, res) => {
-
-    let historiaTitle = client.variables.historiaTitle
-    let historiaDesc = client.variables.historiaDesc
-
-    res.send(`<h1>Categoria [${historiaTitle}]</h1> <h2>${historiaDesc}</h2>`)
-})
-app.get("/historia/1", async(req, res) => {
-
-    let q1c2= client.variables.q1c2
-    let a1c2= client.variables.a1c2
-    let r1c2= client.variables.r1c2
-  
-    res.json({questao: q1c2, alternativas: a1c2, resposta: r1c2})
+app.listen(80, () => {
+    console.log('[ QuizApi - Web ] Servidor web api online!')
 })
