@@ -29,6 +29,6 @@ app.get("/:category/:id", async (req, res) => {
 
 })
 
-app.listen(80, () => {
+app.listen(process.env.PORT, () => {
     console.log('[ QuizApi - Web ] Servidor web api online!')
 })
