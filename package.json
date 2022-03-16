@@ -4,7 +4,7 @@
   "description": "QuizAPI - 💡 Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar ⚡",
   "main": "src/index.js",
   "scripts": {
-    "start": "node test.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "aoi.js": "5.1.0",
