@@ -10,7 +10,8 @@
     "aoi.js": "5.1.0",
     "aoi.fb": "5.5.5",
     "axios": "^0.25.0",
-    "discord.js": "13.6.0"
+    "discord.js": "13.6.0",
+    "firebase": "8.0.0"
   },
   "devDependencies": {
     "node": ">=16.6.0"
