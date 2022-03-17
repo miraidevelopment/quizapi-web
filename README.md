@@ -17,19 +17,19 @@
 
 ## Índice de Conteúdos
 
-- [Sobre](#about)
-- [Instalação](#instalacao)
+- [Sobre](#sobre)
+- [Instalação](#instalação)
   - [Setup](#setup)
-- [Exemplo de Método](#method-example)
+- [Exemplo do Método](#exemplo-do-método)
   - [Question](#questao)
 - [Outros Exemplos](#outros)
   - [Web](#web)
 - [QuizAPI](#quizapi)
 - [Open Source](#open-source)
 
-## About
+## Sobre
 💡 Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar ⚡
-## Instalacao
+## Instalação
 
 **Node.JS 16.6.0 ou maior é necessária.**  
 
@@ -56,11 +56,14 @@ var res = quiz(`${category}`, `${questionNumber}`)
 }
 */
 ```
-## Method Example
+## Exemplo do Método
 ### Questao
 
 ## Outros
 ### Web
+### NODE-FECH
+
+### AXIOS
 
 <br>
 
