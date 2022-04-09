@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -32,7 +34,7 @@ export default function Home() {
             <meta property="og:title" content="Mutano™・Convite" />
             <meta property="og:description" content="A Firebase database of wrapper using aoi.db as API" />
             
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossOrigin="anonymous" />
             <link rel="icon" href="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" type="image/x-icon" />
             <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -47,22 +49,22 @@ export default function Home() {
 
         </Head>
         
-        <div class="div1">
+        <div className="div1">
 
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <Script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossOrigin="anonymous"></Script>
+            <Script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossOrigin="anonymous"></Script>
+            <Script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossOrigin="anonymous"></Script>
 
-            <nav class="navbar navbar-expand-lg navbar-light nav1">
-                <a class="navbar-brand" href="">
-                    <img src="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" width="30" height="30" class="rounded d-inline-block align-top" alt="" />
-                    <div class="divAoifb1">
+            <nav className="navbar navbar-expand-lg navbar-light nav1">
+                <a className="navbar-brand" href="">
+                    <Image src="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" width="30" height="30" className="rounded d-inline-block align-top" alt="" />
+                    <div className="divAoifb1">
                         Aoi.FB
                     </div>
                 </a>
             </nav>
 
-            <div id="initial_bar" class="initialBar"></div>
+            <div id="initial_bar" className="initialBar"></div>
 
             <br />
             <br />
@@ -70,39 +72,35 @@ export default function Home() {
             <br />
             <br />
 
-            <div class="tableModel">
+            <div className="tableModel">
                 <center>
-                    <div class="bob">
-                        <img src="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" alt="..." class="rounded-circle bobShaddow123" />
+                    <div className="bob">
+                        <Image src="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" alt="..." className="rounded-circle bobShaddow123" />
                     </div>
                     <br />
                     <br />
                     <br />
-                    <h2 class="card-title cardTitle1"><strong>Aoi.FB</strong></h2>
-                    <h2 class="card-title cardTitle2"><strong>A Firebase database of wrapper using aoi.db as API</strong></h2>
+                    <h2 className="card-title cardTitle1"><strong>Aoi.FB</strong></h2>
+                    <h2 className="card-title cardTitle2"><strong>A Firebase database of wrapper using aoi.db as API</strong></h2>
                 </center>
             </div>
 
             <br />
             <br />
 
-            <div class="tableModel">
+            <div className="tableModel">
                 <center>
-                    <a href="/" target="_black">
-                        <button type="button" class="btn tableRedirect">You are beingredirected...</button>
-                    </a>
+                    <Link href="/" target="_black">
+                        <button type="button" className="btn tableRedirect">You are beingredirected...</button>
+                    </Link>
                 </center>
             </div>
 
             <br />
             <br />
 
-            <Script>
-                {`
-                    setTimeout(function() {
-                        window.location.href="https://www.npmjs.com/package/aoi.fb#about"
-                    }, 3000);
-                `}
+            <Script id='my-script'>
+                {` setTimeout(function() { window.location.href="https://www.npmjs.com/package/aoi.fb#about" }, 3000); `}
             </Script>
         </div>
       </>
