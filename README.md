@@ -29,8 +29,6 @@
 
 ## Uso
 ### NODE-FETCH
-```js
-const fetch = require('node-fetch')
 
 ### AXIOS
 
