@@ -1,0 +1,47 @@
+{
+  "name": "quizapi-web",
+  "description": "QuizAPI - 💡 Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar ⚡",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiraiDevelopment/quiz-api.git"
+  },
+  "keywords": [
+    "quiz",
+    "api",
+    "quizapi",
+    "botdiscord",
+    "djs",
+    "discordjs",
+    "aoijs",
+    "questions"
+  ],
+  "author": "GR",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+    "type": "Apache-2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/MiraiDevelopment/quiz-api/issues"
+  },
+  "homepage": "https://github.com/MiraiDevelopment/quiz-api#readme"
+}
