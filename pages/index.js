@@ -10,7 +10,7 @@ export default function Home() {
 
             <title>AoiFB</title>
 
-            <meta charset="utf-8" />
+            <meta charSet="utf-8" />
             <meta name="language" content="pt-BR" />
             <meta name="robots" content="all" />
             <meta property="og:type" content="page" />
@@ -57,7 +57,7 @@ export default function Home() {
 
             <nav className="navbar navbar-expand-lg navbar-light nav1">
                 <a className="navbar-brand" href="">
-                    <Image src="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" width="30" height="30" className="rounded d-inline-block align-top" alt="" />
+                    <Image src="/QuizLogo.png" width={30} height={30} className="rounded d-inline-block align-top" />
                     <div className="divAoifb1">
                         Aoi.FB
                     </div>
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="tableModel">
                 <center>
                     <div className="bob">
-                        <Image src="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" alt="..." className="rounded-circle bobShaddow123" />
+                        <Image src="/QuizLogo.png" width={100} height={100} alt="..." className="rounded-circle bobShaddow123" />
                     </div>
                     <br />
                     <br />
@@ -100,7 +100,7 @@ export default function Home() {
             <br />
 
             <Script id='my-script'>
-                {` setTimeout(function() { window.location.href="https://www.npmjs.com/package/aoi.fb#about" }, 3000); `}
+                {` setTimeout(function() { window.location.href="https://www.npmjs.com/package/quiz-api#about" }, 3000); `}
             </Script>
         </div>
       </>

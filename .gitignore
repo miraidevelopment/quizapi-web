@@ -5,6 +5,7 @@
 /.pnp
 /.github
 .pnp.js
+.env
 
 # testing
 /coverage
