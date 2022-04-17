@@ -21,9 +21,9 @@ export default function Home() {
             <meta name="twitter:title" content="QuizAPI" />
             <meta name="twitter:creator" content="@guihrib" />
             <meta name="twitter:description" content="Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar" />
-            <meta name="theme-color" content="#1aff17" />
-            <meta name="apple-mobile-web-app-status-bar-style" content="#1aff17" />
-            <meta name="msapplication-navbutton-color" content="#1aff17" />
+            <meta name="theme-color" content="#FFC927" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="#FFC927" />
+            <meta name="msapplication-navbutton-color" content="#FFC927" />
             <meta name="author" content="guih rib" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="keywords" content="quiz-api quiz api questões gr mutano mirai-development development mirai" />
@@ -46,7 +46,7 @@ export default function Home() {
             <link rel="stylesheet" href="/counter.css" />
             <link rel="stylesheet" href="/colors.css" />
             <link rel="stylesheet" href="/a.css" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/QuizLogo.png" />
 
         </Head>
         
