@@ -27,7 +27,7 @@ export default function Home() {
             <meta name="author" content="guih rib" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="keywords" content="quiz-api quiz api questões gr mutano mirai-development development mirai" />
-            <meta property="og:image" content="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" />
+            <meta property="og:image" content="/QuizLogo.png" />
             <meta property="og:site_name" content="QuizAPI" />
             <meta property="og:type" content="website" />
             <meta property="og:url" content="https://quizapi.site/" />
