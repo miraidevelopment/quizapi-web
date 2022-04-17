@@ -15,7 +15,7 @@ export default function Home() {
             <meta name="language" content="pt-BR" />
             <meta name="robots" content="all" />
             <meta property="og:type" content="page" />
-            <meta property="article:author" content="Quiz" />
+            <meta property="article:author" content="Mirai Development" />
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content="@quizapi.quizapi.site" />
             <meta name="twitter:title" content="QuizAPI" />
@@ -24,7 +24,7 @@ export default function Home() {
             <meta name="theme-color" content="#FFC927" />
             <meta name="apple-mobile-web-app-status-bar-style" content="#FFC927" />
             <meta name="msapplication-navbutton-color" content="#FFC927" />
-            <meta name="author" content="guih rib" />
+            <meta name="author" content="Mirai Development" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="keywords" content="quiz-api quiz api questões gr mutano mirai-development development mirai" />
             <meta property="og:image" content="/QuizLogo.png" />
