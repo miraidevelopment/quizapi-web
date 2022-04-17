@@ -36,7 +36,7 @@ export default function Home() {
             <meta property="og:description" content="Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar" />
             
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossOrigin="anonymous" />
-            <link rel="icon" href="https://cdn.discordapp.com/attachments/929747405916733460/934403289905250304/AoiFB_Logo.png" type="image/x-icon" />
+            <link rel="icon" href="/QuizLogo.png" type="image/x-icon" />
             <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link rel="stylesheet" href="/bob.css" />
@@ -46,7 +46,6 @@ export default function Home() {
             <link rel="stylesheet" href="/counter.css" />
             <link rel="stylesheet" href="/colors.css" />
             <link rel="stylesheet" href="/a.css" />
-            <link rel="icon" href="/QuizLogo.png" />
 
         </Head>
         
