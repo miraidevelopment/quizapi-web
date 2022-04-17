@@ -1,5 +1,7 @@
 .container {
-  padding: 0 2rem;
+  background-color: var(--dc);
+  width: 100%;
+  height: 100%;
 }
 
 .abcdef {
