@@ -2,7 +2,6 @@
 <div align="center">
     <a href="https://quizapi.site/"><img src="https://user-images.githubusercontent.com/61317250/159102864-01bed8cb-3d0d-4cee-b78a-efb8a9309d79.png" alt="quizapi icon" /></a>
     <h1>QuizAPI - Web</h1>
-    <h1>EM BREVE... - COMING SOON...</h1>
     <p>💡 Uma API de Questões e Respostas para seu bot do Discord e WebSite, 100% em português e fácil de usar ⚡</p>
     <a href="https://discord.gg/gNFEMrHshn"><img src="https://img.shields.io/discord/786392360475951154?style=for-the-badge&label=Chat&color=2490f8&logo=discord&logoColor=white" alt="discord server" /></a>
     <a href="https://quizapi.site/"><h3>Site da WebAPI</h3></a>
